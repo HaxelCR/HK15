@@ -11,7 +11,6 @@ bot.on(["/15"], (msg) => {
 
 bot.on(["/triste"], (msg) => {
     bot.sendMessage(msg.chat.id, `Recuerda que tu puedes con todo, eres mi mujer, y mi mujer no se deja vencer por nada`)
-
 })
 
 bot.start();
